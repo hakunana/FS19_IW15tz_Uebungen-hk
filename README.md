@@ -1,4 +1,5 @@
 # FS19_IW15tz_Uebungen-hk
+
 ## Übungen im FS19
 Starterpackages werden zur Verfügung gestellt. Lösung wird zu einem späteren Zeitpunkt zur Verfügung gestellt. 
 
@@ -28,15 +29,8 @@ Starterpackages werden zur Verfügung gestellt. Lösung wird zu einem späteren 
 
 > Lösung
 
-### 06 3rd Party APIs
-> Starterpackage 1: NY Time
+### 06 JavaScript Objects - Wiederholung
+> Starterpackage
 
-> Lösung 1
-
--
-
-> Starterpackage 2: Youtube
-
-> Lösung 2
-
+> Lösung
 ## 07 TBA
