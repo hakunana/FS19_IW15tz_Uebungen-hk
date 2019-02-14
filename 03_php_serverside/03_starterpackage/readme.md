@@ -17,8 +17,9 @@
 >  includes:                   http://php.net/manual/en/function.include.php
 
 >  start server on localhost:  http://php.net/manual/en/features.commandline.webserver.php
-                              $ cd PROJEKTPFAD/starterpackage
-                              $ php -S localhost:8000
+                              TERMINAL / KOMMANDOZEILENBEFEHLE:
+>                               $ cd path/to/your/php/code
+                                $ php -S localhost:8000
 
 ## Fonts
 >  Link:                        https://fonts.google.com/
