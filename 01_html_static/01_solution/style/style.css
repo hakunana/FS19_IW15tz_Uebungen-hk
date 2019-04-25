@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: coral;
+  margin-top: 10%;
+}
+
+p {
+  line-height: 1.0em
+}
+
+img {
+  width: 120px;
+  height: 120px;
+}
+
+.center {
+  width: 120px
+}
+
+.card {
+  padding: 20px;
+  max-width: 50%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.btn {
+  margin-top: 30px;
+  padding: .175rem .45rem;
+}

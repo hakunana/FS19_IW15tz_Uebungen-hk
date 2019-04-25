@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  height: 100vh;
+  background-color: coral;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  background-image: url(../bg-pattern.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 20%;
+}
+
+h1 {
+  text-align: center;
+  line-height: 2.4em;
+}
+
+.container {
+  margin-top: 10vh;
+}
+
+.result {
+  /* background-color: coral; */
+  text-align: center;
+  padding: 10px;
+  color: #999;
+}
+
+.demosvg {
+  max-width: 500px;
+}
+
+.col-lg-6 {
+  margin-top: 40px;
+}
+
+xmp {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  background-color: rgba(255, 255, 255, .6);
+  color: black;
+}
+
+/* SVG Animate Tutorial */
+/* Older versions of Mozila */
+@-moz-keyframes animation-name {
+  0% {
+    -moz-transform: translateY(0)
+  }
+}
+
+/* Chrome, Opera, Safari */
+@-webkit-keyframes animation-name {
+  0% {
+    -webkit-transform: translateY(0)
+  }
+}
+
+/* Standard */
+@keyframes animation-name {
+  0% {
+    transform: translateY(0)
+  }
+}
+
+.class {
+  -moz-animation: animation-name 1s linear infinite;
+  /* Older versions of Mozila */
+  -webkit-animation: animation-name 1s linear infinite;
+  /* Chrome, Opera, Safari */
+  animation: animation-name 1s linear infinite;
+  /* Standard */
+}
+
+.svg {
+  width: 100%;
+  height: auto;
+}
+
+.svg path {
+  fill: #000;
+}
+
+.building-flames path {
+  fill: #ff0000;
+}
+
+@keyframes ufo-building-float {
+  0% {
+    transform: translateY(0)
+  }
+
+  25% {
+    transform: translateY(-25px)
+  }
+
+  75% {
+    transform: translateY(25px)
+  }
+
+  100% {
+    transform: translateY(0)
+  }
+}
+
+@keyframes ufo-big {
+  0% {
+    opacity: 0
+  }
+
+  15%, 70% {
+    opacity: 1
+  }
+
+  85%, 100% {
+    opacity: 0
+  }
+}
+
+@keyframes ufo-small {
+  0%, 10% {
+    opacity: 0
+  }
+
+  25%, 85% {
+    opacity: 1
+  }
+
+  100% {
+    opacity: 0
+  }
+}
+
+.ufo-big {
+  animation: ufo-big 5s ease infinite;
+}
+
+.ufo-small {
+  animation: ufo-small 5s ease infinite;
+}
+
+@keyframes ufo-big-lights {
+  0% {
+    fill: #000
+  }
+
+  20% {
+    fill: #fbcb43
+  }
+
+  40%, 100% {
+    fill: #000
+  }
+}
+
+.ufo-big-lights-light {
+  animation: ufo-big-lights 2.5s ease infinite;
+}
+
+.ufo-big-lights--2 {
+  animation-delay: .2s
+}
+
+.ufo-big-lights--3 {
+  animation-delay: .4s
+}
+
+.ufo-big-lights--4 {
+  animation-delay: .6s
+}
+
+.ufo-big-lights--5 {
+  animation-delay: .8s
+}
+
+@keyframes building-flames {
+  0% {
+    transform: scale(1, 1)
+  }
+
+  50% {
+    transform: scale(1, 1.1)
+  }
+
+  100% {
+    transform: scale(1, 1)
+  }
+}
+
+.building-flames path {
+  fill: #d84437;
+  animation: building-flames .15s ease infinite;
+  transform-origin: center top;
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  background-color: coral;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  line-height: 2.4em;
+}
+
+.card {
+  padding: 20px;
+  color: #999;
+}
+
+footer {
+  background-color: white;
+  position: fixed;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+}

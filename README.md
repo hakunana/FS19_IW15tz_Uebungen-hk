@@ -1,7 +1,7 @@
 # FS19_IW15tz_Uebungen-hk
 
 ## Übungen im FS19
-Starterpackages werden zur Verfügung gestellt. Lösung wird zu einem späteren Zeitpunkt zur Verfügung gestellt. 
+Starterpackages werden zur Verfügung gestellt. Lösung wird zu einem späteren Zeitpunkt zur Verfügung gestellt.
 
 ### 01 HTML Static: Visitenkarte
 > Starterpackage
@@ -29,8 +29,10 @@ Starterpackages werden zur Verfügung gestellt. Lösung wird zu einem späteren 
 
 > Lösung
 
-### 06 JavaScript Objects - Wiederholung
+### 07 Web APIs
 > Starterpackage
 
 > Lösung
-## 07 TBA
+
+### 08 NY Times API Demo
+> Beispiel

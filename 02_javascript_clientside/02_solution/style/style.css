@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  background-color: coral;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  line-height: 2.4em;
+}
+
+.container {
+  margin-top: 10vh;
+}
+
+.result {
+  /* background-color: coral; */
+  text-align: center;
+  padding: 10px;
+  color: #999;
+}

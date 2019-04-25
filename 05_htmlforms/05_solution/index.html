@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>DGUI Lesson 5</title>
+        <meta name="description" content="html5 Forms">
+        <meta name="author" content="Hanna Kummel">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>HTML Formular</h1>
+            <hr>
+            <form>
+
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label for="validationDefault03">Ich möchte </label>
+                        <input type="text" class="form-control" id="validationDefault03" placeholder="Surfen, Schwimmen, Lesen, ..." onfocus="this.value=' '" required>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationDefaultUsername">Wann</label>
+                        <div class="input-group">
+                            <input type="date" class="form-control" id="validationDefaultUsername" placeholder="dd/mm/yyyy"  onfocus="this.value=' '" aria-describedby="inputGroupPrepend2" required pattern="(0[1-9]|1[0-9]|2[0-9]|3[01]).(0[1-9]|1[012]).[0-9]{4}">
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationDefault03">Wo </label>
+                        <input type="text" class="form-control" id="validationDefault03" placeholder="hier" required>
+                    </div>
+                    <div class="col-md-2 mb-3">
+                        <label for="customRange3">Im Umkreis von </label>
+                        <input type="range" class="custom-range" min="10" max="150" step="5" id="customRange3">
+                    </div>
+                </div>
+                <!-- <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label" for="invalidCheck2">
+                            Agree to terms and conditions
+                        </label>
+                    </div>
+                </div> -->
+                <div class="sendbutton text-center">
+                    <button class="btn btn-primary my-primary col-6 " type="submit">LOS</button>
+
+                </div>
+            </form>
+        </div>
+        <script type="text/javascript">
+
+
+        </script>
+    </body>
+
+</html>

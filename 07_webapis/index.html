@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Batterie Status API Beispiel </title>
+</head>
+
+<body>
+  <div id="charging">(charging state unknown)</div>
+  <div id="level">(battery level unknown)</div>
+  <div id="dischargingTime">(discharging time unknown)</div>
+
+
+  <script>
+    window.onload = function () {
+      function updateBatteryStatus(battery) {
+        document.querySelector('#charging').textContent = battery.charging ? 'Ihr Gerät lädt gerade' : 'Ihr Gerät lädt nicht';
+        document.querySelector('#level').textContent = 'Batterie in %: ' + battery.level;
+        document.querySelector('#dischargingTime').textContent = 'Verbleibende Zeit bis vollständige Entladung: ' + battery.dischargingTime / 60;
+      }
+
+      navigator.getBattery().then(function(battery) {
+        // Update the battery status initially when the promise resolves ...
+        updateBatteryStatus(battery);
+
+        // .. and for any subsequent updates.
+        battery.onchargingchange = function () {
+          updateBatteryStatus(battery);
+        };
+
+        battery.onlevelchange = function () {
+          updateBatteryStatus(battery);
+        };
+
+        battery.ondischargingtimechange = function () {
+          updateBatteryStatus(battery);
+        };
+      });
+    };
+  </script>
+
+</body>
+</html>
+<!-- source: https://www.w3.org/TR/battery-status/#examples -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/API/Navigator/battery -->
