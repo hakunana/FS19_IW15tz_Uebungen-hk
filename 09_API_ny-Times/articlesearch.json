@@ -1,0 +1,1074 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2019 The New York Times Company. All Rights Reserved.",
+  "response": {
+    "docs": [{
+      "web_url": "https://www.nytimes.com/2017/03/07/crosswords/a-deadly-sin.html",
+      "snippet": "Paula Gamache takes us (and others) out.",
+      "lead_paragraph": "Paula Gamache takes us (and others) out.",
+      "blog": {},
+      "source": "The New York Times",
+      "multimedia": [{
+        "rank": 0,
+        "subtype": "xlarge",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/08/crosswords/08wordplay-indoor-cat/08wordplay-indoor-cat-articleLarge.jpg",
+        "height": 376,
+        "width": 600,
+        "legacy": {
+          "xlargewidth": 600,
+          "xlarge": "images/2017/03/08/crosswords/08wordplay-indoor-cat/08wordplay-indoor-cat-articleLarge.jpg",
+          "xlargeheight": 376
+        },
+        "subType": "xlarge",
+        "crop_name": null
+      }, {
+        "rank": 0,
+        "subtype": "wide",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/08/crosswords/08wordplay-indoor-cat/08wordplay-indoor-cat-thumbWide.jpg",
+        "height": 126,
+        "width": 190,
+        "legacy": {
+          "wide": "images/2017/03/08/crosswords/08wordplay-indoor-cat/08wordplay-indoor-cat-thumbWide.jpg",
+          "widewidth": 190,
+          "wideheight": 126
+        },
+        "subType": "wide",
+        "crop_name": null
+      }, {
+        "rank": 0,
+        "subtype": "thumbnail",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/08/crosswords/08wordplay-indoor-cat/08wordplay-indoor-cat-thumbStandard.jpg",
+        "height": 75,
+        "width": 75,
+        "legacy": {
+          "thumbnailheight": 75,
+          "thumbnail": "images/2017/03/08/crosswords/08wordplay-indoor-cat/08wordplay-indoor-cat-thumbStandard.jpg",
+          "thumbnailwidth": 75
+        },
+        "subType": "thumbnail",
+        "crop_name": null
+      }],
+      "headline": {
+        "main": "A Deadly Sin",
+        "kicker": "Wordplay",
+        "content_kicker": "Wordplay",
+        "print_headline": "A Deadly Sin",
+        "name": null,
+        "seo": null,
+        "sub": null
+      },
+      "keywords": [{
+        "name": "subject",
+        "value": "Crossword Puzzles",
+        "rank": 1,
+        "major": "N"
+      }],
+      "pub_date": "2017-03-08T03:00:03+0000",
+      "document_type": "article",
+      "news_desk": "Games",
+      "section_name": "Crosswords & Games",
+      "byline": {
+        "original": "By CAITLIN LOVINGER",
+        "person": [{
+          "firstname": "Caitlin",
+          "middlename": null,
+          "lastname": "LOVINGER",
+          "qualifier": null,
+          "title": null,
+          "role": "reported",
+          "organization": "",
+          "rank": 1
+        }],
+        "organization": null
+      },
+      "type_of_material": "News",
+      "_id": "58bf73bb95d0e024902fe1e7",
+      "word_count": 857,
+      "score": 0.0,
+      "uri": "nyt://article/80ff2058-0fca-5653-87c0-82ce0e907d24"
+    }, {
+      "web_url": "https://www.nytimes.com/2017/03/03/books/review/what-you-dont-know-joann-chaney.html",
+      "snippet": "Marilyn Stasio surveys serial killers in Denver, stalkers on the London Underground, brutal bikers in Texas and a mystery-solving house cat in the Deep South.",
+      "lead_paragraph": "Marilyn Stasio surveys serial killers in Denver, stalkers on the London Underground, brutal bikers in Texas and a mystery-solving house cat in the Deep South.",
+      "print_page": "7",
+      "blog": {},
+      "source": "The New York Times",
+      "multimedia": [{
+        "rank": 0,
+        "subtype": "thumbnail",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/05/books/review/0305-BKS-Crime/0305-BKS-Crime-thumbStandard-v3.jpg",
+        "height": 75,
+        "width": 75,
+        "legacy": {
+          "thumbnailheight": 75,
+          "thumbnail": "images/2017/03/05/books/review/0305-BKS-Crime/0305-BKS-Crime-thumbStandard-v3.jpg",
+          "thumbnailwidth": 75
+        },
+        "subType": "thumbnail",
+        "crop_name": null
+      }, {
+        "rank": 0,
+        "subtype": "wide",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/05/books/review/0305-BKS-Crime/0305-BKS-Crime-thumbWide-v3.jpg",
+        "height": 126,
+        "width": 190,
+        "legacy": {
+          "wide": "images/2017/03/05/books/review/0305-BKS-Crime/0305-BKS-Crime-thumbWide-v3.jpg",
+          "widewidth": 190,
+          "wideheight": 126
+        },
+        "subType": "wide",
+        "crop_name": null
+      }],
+      "headline": {
+        "main": "The Best and Latest in Crime Fiction",
+        "kicker": "Crime",
+        "content_kicker": "Crime",
+        "print_headline": "That New Corpse Smell",
+        "name": null,
+        "seo": null,
+        "sub": null
+      },
+      "keywords": [{
+        "name": "subject",
+        "value": "Books and Literature",
+        "rank": 1,
+        "major": "N"
+      }, {
+        "name": "creative_works",
+        "value": "What You Don't Know (Book)",
+        "rank": 2,
+        "major": "N"
+      }, {
+        "name": "persons",
+        "value": "Chaney, JoAnn",
+        "rank": 3,
+        "major": "N"
+      }, {
+        "name": "creative_works",
+        "value": "I See You (Book)",
+        "rank": 4,
+        "major": "N"
+      }, {
+        "name": "persons",
+        "value": "Mackintosh, Clare",
+        "rank": 5,
+        "major": "N"
+      }, {
+        "name": "creative_works",
+        "value": "The Dime (Book)",
+        "rank": 6,
+        "major": "N"
+      }, {
+        "name": "persons",
+        "value": "Kent, Kathleen",
+        "rank": 7,
+        "major": "N"
+      }, {
+        "name": "creative_works",
+        "value": "Twelve Angry Librarians (Book)",
+        "rank": 8,
+        "major": "N"
+      }, {
+        "name": "persons",
+        "value": "James, Miranda (Author)",
+        "rank": 9,
+        "major": "N"
+      }],
+      "pub_date": "2017-03-03T10:00:25+0000",
+      "document_type": "article",
+      "news_desk": "BookReview",
+      "section_name": "Books",
+      "subsectoinName": "Book Review",
+      "byline": {
+        "original": "By MARILYN STASIO",
+        "person": [{
+          "firstname": "Marilyn",
+          "middlename": null,
+          "lastname": "STASIO",
+          "qualifier": null,
+          "title": null,
+          "role": "reported",
+          "organization": "",
+          "rank": 1
+        }],
+        "organization": null
+      },
+      "type_of_material": "News",
+      "_id": "58b93ec095d0e024902fd505",
+      "word_count": 904,
+      "score": 0.0
+    }, {
+      "web_url": "https://www.nytimes.com/2017/03/02/business/forensic-veterinarian-aspca.html",
+      "snippet": "When it comes to animal cruelty, neglect and abuse, Robert Reisman at the A.S.P.C.A. is on the case.",
+      "lead_paragraph": "When it comes to animal cruelty, neglect and abuse, Robert Reisman at the A.S.P.C.A. is on the case.",
+      "print_page": "7",
+      "blog": {},
+      "source": "The New York Times",
+      "multimedia": [{
+        "rank": 0,
+        "subtype": "thumbnail",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/05/business/05VOCATIONS/05VOCATIONS-thumbStandard.jpg",
+        "height": 75,
+        "width": 75,
+        "legacy": {
+          "thumbnailheight": 75,
+          "thumbnail": "images/2017/03/05/business/05VOCATIONS/05VOCATIONS-thumbStandard.jpg",
+          "thumbnailwidth": 75
+        },
+        "subType": "thumbnail",
+        "crop_name": null
+      }, {
+        "rank": 0,
+        "subtype": "xlarge",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/05/business/05VOCATIONS/05VOCATIONS-articleLarge.jpg",
+        "height": 401,
+        "width": 600,
+        "legacy": {
+          "xlargewidth": 600,
+          "xlarge": "images/2017/03/05/business/05VOCATIONS/05VOCATIONS-articleLarge.jpg",
+          "xlargeheight": 401
+        },
+        "subType": "xlarge",
+        "crop_name": null
+      }, {
+        "rank": 0,
+        "subtype": "wide",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/05/business/05VOCATIONS/05VOCATIONS-thumbWide.jpg",
+        "height": 126,
+        "width": 190,
+        "legacy": {
+          "wide": "images/2017/03/05/business/05VOCATIONS/05VOCATIONS-thumbWide.jpg",
+          "widewidth": 190,
+          "wideheight": 126
+        },
+        "subType": "wide",
+        "crop_name": null
+      }],
+      "headline": {
+        "main": "Forensic Files, Veterinary Version",
+        "kicker": "Vocations",
+        "content_kicker": "Vocations",
+        "print_headline": "An Investigator of Pet Crimes",
+        "name": null,
+        "seo": null,
+        "sub": null
+      },
+      "keywords": [{
+        "name": "subject",
+        "value": "Forensic Science",
+        "rank": 1,
+        "major": "N"
+      }, {
+        "name": "subject",
+        "value": "Animal Abuse, Rights and Welfare",
+        "rank": 2,
+        "major": "N"
+      }, {
+        "name": "subject",
+        "value": "Veterinary Medicine",
+        "rank": 3,
+        "major": "N"
+      }, {
+        "name": "organizations",
+        "value": "American Society for the Prevention of Cruelty to Animals",
+        "rank": 4,
+        "major": "N"
+      }],
+      "pub_date": "2017-03-02T17:30:14+0000",
+      "document_type": "article",
+      "news_desk": "SundayBusiness",
+      "section_name": "Business Day",
+      "byline": {
+        "original": "As told to PATRICIA R. OLSEN",
+        "person": [{
+          "firstname": null,
+          "middlename": null,
+          "lastname": null,
+          "qualifier": null,
+          "title": null,
+          "role": "reported",
+          "organization": "",
+          "rank": 1
+        }],
+        "organization": null
+      },
+      "type_of_material": "News",
+      "_id": "58b856ac95d0e024902fd2cd",
+      "word_count": 382,
+      "score": 0.0
+    }, {
+      "web_url": "https://www.nytimes.com/2017/03/02/nyregion/broomball-brooklyn-lefrak.html",
+      "snippet": "To visualize the sport, think hockey, but without the skates and with a lot more slipping and sliding.",
+      "lead_paragraph": "To visualize the sport, think hockey, but without the skates and with a lot more slipping and sliding.",
+      "print_page": "2",
+      "blog": {},
+      "source": "The New York Times",
+      "multimedia": [{
+        "rank": 0,
+        "subtype": "thumbnail",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/02/26/nyregion/05BROOMBALL/05BROOMBALL-thumbStandard.jpg",
+        "height": 75,
+        "width": 75,
+        "legacy": {
+          "thumbnailheight": 75,
+          "thumbnail": "images/2017/02/26/nyregion/05BROOMBALL/05BROOMBALL-thumbStandard.jpg",
+          "thumbnailwidth": 75
+        },
+        "subType": "thumbnail",
+        "crop_name": null
+      }, {
+        "rank": 0,
+        "subtype": "xlarge",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/02/26/nyregion/05BROOMBALL/05BROOMBALL-articleLarge.jpg",
+        "height": 401,
+        "width": 600,
+        "legacy": {
+          "xlargewidth": 600,
+          "xlarge": "images/2017/02/26/nyregion/05BROOMBALL/05BROOMBALL-articleLarge.jpg",
+          "xlargeheight": 401
+        },
+        "subType": "xlarge",
+        "crop_name": null
+      }, {
+        "rank": 0,
+        "subtype": "wide",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/02/26/nyregion/05BROOMBALL/05BROOMBALL-thumbWide.jpg",
+        "height": 126,
+        "width": 190,
+        "legacy": {
+          "wide": "images/2017/02/26/nyregion/05BROOMBALL/05BROOMBALL-thumbWide.jpg",
+          "widewidth": 190,
+          "wideheight": 126
+        },
+        "subType": "wide",
+        "crop_name": null
+      }],
+      "headline": {
+        "main": "It’s Called Broomball. And, Yes, It’s Grueling.",
+        "kicker": "Fit City",
+        "content_kicker": "Fit City",
+        "print_headline": "It’s Broomball. And, Yes, It’s Grueling.",
+        "name": null,
+        "seo": null,
+        "sub": null
+      },
+      "keywords": [{
+        "name": "subject",
+        "value": "Hockey, Ice",
+        "rank": 1,
+        "major": "N"
+      }, {
+        "name": "organizations",
+        "value": "LeFrak Center at Lakeside",
+        "rank": 2,
+        "major": "N"
+      }, {
+        "name": "glocations",
+        "value": "Brooklyn (NYC)",
+        "rank": 3,
+        "major": "N"
+      }, {
+        "name": "glocations",
+        "value": "Minnesota",
+        "rank": 4,
+        "major": "N"
+      }, {
+        "name": "glocations",
+        "value": "Canada",
+        "rank": 5,
+        "major": "N"
+      }],
+      "pub_date": "2017-03-03T01:00:48+0000",
+      "document_type": "article",
+      "news_desk": "Metropolitan",
+      "section_name": "N.Y. / Region",
+      "byline": {
+        "original": "By ROBERT PEELE",
+        "person": [{
+          "firstname": "Robert",
+          "middlename": null,
+          "lastname": "PEELE",
+          "qualifier": null,
+          "title": null,
+          "role": "reported",
+          "organization": "",
+          "rank": 1
+        }],
+        "organization": null
+      },
+      "type_of_material": "News",
+      "_id": "58b8c04695d0e024902fd428",
+      "word_count": 857,
+      "score": 0.0
+    }, {
+      "web_url": "https://www.nytimes.com/2017/03/09/movies/raw-review.html",
+      "snippet": "Julia Ducournau’s film unfolds during rush week in a nightmarish veterinary school.",
+      "lead_paragraph": "Julia Ducournau’s film unfolds during rush week in a nightmarish veterinary school.",
+      "print_page": "6",
+      "blog": {},
+      "source": "The New York Times",
+      "multimedia": [{
+        "rank": 0,
+        "subtype": "thumbnail",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/10/arts/10RAW/10RAW-thumbStandard-v2.jpg",
+        "height": 75,
+        "width": 75,
+        "legacy": {
+          "thumbnailheight": 75,
+          "thumbnail": "images/2017/03/10/arts/10RAW/10RAW-thumbStandard-v2.jpg",
+          "thumbnailwidth": 75
+        },
+        "subType": "thumbnail",
+        "crop_name": null
+      }, {
+        "rank": 0,
+        "subtype": "xlarge",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/10/arts/10RAW/10RAW-articleLarge.jpg",
+        "height": 251,
+        "width": 600,
+        "legacy": {
+          "xlargewidth": 600,
+          "xlarge": "images/2017/03/10/arts/10RAW/10RAW-articleLarge.jpg",
+          "xlargeheight": 251
+        },
+        "subType": "xlarge",
+        "crop_name": null
+      }, {
+        "rank": 0,
+        "subtype": "wide",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/10/arts/10RAW/10RAW-thumbWide-v2.jpg",
+        "height": 126,
+        "width": 190,
+        "legacy": {
+          "wide": "images/2017/03/10/arts/10RAW/10RAW-thumbWide-v2.jpg",
+          "widewidth": 190,
+          "wideheight": 126
+        },
+        "subType": "wide",
+        "crop_name": null
+      }],
+      "headline": {
+        "main": "Review: Give a Student Some Offal, and You’ll Regret It in ‘Raw’",
+        "kicker": null,
+        "content_kicker": null,
+        "print_headline": "Review: Give a Student Some Offal, and You’ll Regret It in ‘Raw’",
+        "name": null,
+        "seo": null,
+        "sub": null
+      },
+      "keywords": [{
+        "name": "creative_works",
+        "value": "Raw (Movie)",
+        "rank": 1,
+        "major": "N"
+      }, {
+        "name": "subject",
+        "value": "Movies",
+        "rank": 2,
+        "major": "N"
+      }, {
+        "name": "persons",
+        "value": "Ducournau, Julia",
+        "rank": 3,
+        "major": "N"
+      }, {
+        "name": "persons",
+        "value": "Marillier, Garance",
+        "rank": 4,
+        "major": "N"
+      }, {
+        "name": "persons",
+        "value": "Rumpf, Ella",
+        "rank": 5,
+        "major": "N"
+      }],
+      "pub_date": "2017-03-09T21:52:11+0000",
+      "document_type": "article",
+      "news_desk": "Weekend",
+      "section_name": "Movies",
+      "byline": {
+        "original": "By JEANNETTE CATSOULIS",
+        "person": [{
+          "firstname": "Jeannette",
+          "middlename": null,
+          "lastname": "CATSOULIS",
+          "qualifier": null,
+          "title": null,
+          "role": "reported",
+          "organization": "",
+          "rank": 1
+        }],
+        "organization": null
+      },
+      "type_of_material": "Review",
+      "_id": "58c1ce9295d0e024902fe895",
+      "word_count": 265,
+      "score": 0.0
+    }, {
+      "web_url": "https://www.nytimes.com/2017/03/10/arts/music/west-coast-get-down-thundercat-jazz-albums.html",
+      "snippet": "Members of the West Coast Get Down collective are still mining the fruitful recording sessions that resulted in Kamasi Washington’s “The Epic.”",
+      "lead_paragraph": "Members of the West Coast Get Down collective are still mining the fruitful recording sessions that resulted in Kamasi Washington’s “The Epic.”",
+      "print_page": "2",
+      "blog": {},
+      "source": "The New York Times",
+      "multimedia": [{
+        "rank": 0,
+        "subtype": "thumbnail",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/16/arts/16JAZZLIST1/16JAZZLIST1-thumbStandard-v3.jpg",
+        "height": 75,
+        "width": 75,
+        "legacy": {
+          "thumbnailheight": 75,
+          "thumbnail": "images/2017/03/16/arts/16JAZZLIST1/16JAZZLIST1-thumbStandard-v3.jpg",
+          "thumbnailwidth": 75
+        },
+        "subType": "thumbnail",
+        "crop_name": null
+      }, {
+        "rank": 0,
+        "subtype": "xlarge",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/16/arts/16JAZZLIST1/16JAZZLIST1-articleLarge-v2.jpg",
+        "height": 398,
+        "width": 600,
+        "legacy": {
+          "xlargewidth": 600,
+          "xlarge": "images/2017/03/16/arts/16JAZZLIST1/16JAZZLIST1-articleLarge-v2.jpg",
+          "xlargeheight": 398
+        },
+        "subType": "xlarge",
+        "crop_name": null
+      }, {
+        "rank": 0,
+        "subtype": "wide",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/16/arts/16JAZZLIST1/16JAZZLIST1-thumbWide-v2.jpg",
+        "height": 126,
+        "width": 190,
+        "legacy": {
+          "wide": "images/2017/03/16/arts/16JAZZLIST1/16JAZZLIST1-thumbWide-v2.jpg",
+          "widewidth": 190,
+          "wideheight": 126
+        },
+        "subType": "wide",
+        "crop_name": null
+      }],
+      "headline": {
+        "main": "Los Angeles’s Thriving Jazz Scene Produces Four New Albums",
+        "kicker": null,
+        "content_kicker": null,
+        "print_headline": "Sometimes You’re a Bandleader, Sometimes a Sideman",
+        "name": null,
+        "seo": null,
+        "sub": null
+      },
+      "keywords": [{
+        "name": "subject",
+        "value": "Jazz",
+        "rank": 1,
+        "major": "N"
+      }, {
+        "name": "organizations",
+        "value": "West Coast Get Down (Music Group)",
+        "rank": 2,
+        "major": "N"
+      }, {
+        "name": "persons",
+        "value": "Bruner, Stephen (Thundercat) (1984- )",
+        "rank": 3,
+        "major": "N"
+      }, {
+        "name": "persons",
+        "value": "Bruner, Ronald Jr",
+        "rank": 4,
+        "major": "N"
+      }, {
+        "name": "persons",
+        "value": "Graves, Cameron",
+        "rank": 5,
+        "major": "N"
+      }, {
+        "name": "persons",
+        "value": "Mosley, Miles",
+        "rank": 6,
+        "major": "N"
+      }],
+      "pub_date": "2017-03-10T21:58:55+0000",
+      "document_type": "article",
+      "news_desk": "Culture",
+      "section_name": "Arts",
+      "subsectoinName": "Music",
+      "byline": {
+        "original": "By GIOVANNI RUSSONELLO",
+        "person": [{
+          "firstname": "Giovanni",
+          "middlename": null,
+          "lastname": "RUSSONELLO",
+          "qualifier": null,
+          "title": null,
+          "role": "reported",
+          "organization": "",
+          "rank": 1
+        }],
+        "organization": null
+      },
+      "type_of_material": "News",
+      "_id": "58c321a595d0e024902fec62",
+      "word_count": 964,
+      "score": 0.0
+    }, {
+      "web_url": "https://www.nytimes.com/2017/03/09/arts/comedy-in-nyc-this-week.html",
+      "snippet": "Our guide to stand-up, improv and variety shows.",
+      "lead_paragraph": "Our guide to stand-up, improv and variety shows.",
+      "print_page": "23",
+      "blog": {},
+      "source": "The New York Times",
+      "multimedia": [{
+        "rank": 0,
+        "subtype": "thumbnail",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/10/arts/10LISTINGSCOMEDY/10LISTINGSCOMEDY-thumbStandard.jpg",
+        "height": 75,
+        "width": 75,
+        "legacy": {
+          "thumbnailheight": 75,
+          "thumbnail": "images/2017/03/10/arts/10LISTINGSCOMEDY/10LISTINGSCOMEDY-thumbStandard.jpg",
+          "thumbnailwidth": 75
+        },
+        "subType": "thumbnail",
+        "crop_name": null
+      }, {
+        "rank": 0,
+        "subtype": "xlarge",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/10/arts/10LISTINGSCOMEDY/10LISTINGSCOMEDY-articleLarge.jpg",
+        "height": 410,
+        "width": 600,
+        "legacy": {
+          "xlargewidth": 600,
+          "xlarge": "images/2017/03/10/arts/10LISTINGSCOMEDY/10LISTINGSCOMEDY-articleLarge.jpg",
+          "xlargeheight": 410
+        },
+        "subType": "xlarge",
+        "crop_name": null
+      }, {
+        "rank": 0,
+        "subtype": "wide",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/10/arts/10LISTINGSCOMEDY/10LISTINGSCOMEDY-thumbWide.jpg",
+        "height": 126,
+        "width": 190,
+        "legacy": {
+          "wide": "images/2017/03/10/arts/10LISTINGSCOMEDY/10LISTINGSCOMEDY-thumbWide.jpg",
+          "widewidth": 190,
+          "wideheight": 126
+        },
+        "subType": "wide",
+        "crop_name": null
+      }],
+      "headline": {
+        "main": "Comedy in NYC This Week",
+        "kicker": null,
+        "content_kicker": null,
+        "print_headline": "The Listings; Comedy",
+        "name": null,
+        "seo": null,
+        "sub": null
+      },
+      "keywords": [{
+        "name": "subject",
+        "value": "Comedy and Humor",
+        "rank": 1,
+        "major": "N"
+      }],
+      "pub_date": "2017-03-09T23:17:55+0000",
+      "document_type": "article",
+      "news_desk": "Weekend",
+      "section_name": "Arts",
+      "byline": {
+        "original": "By ELISE CZAJKOWSKI",
+        "person": [{
+          "firstname": "Elise",
+          "middlename": null,
+          "lastname": "CZAJKOWSKI",
+          "qualifier": null,
+          "title": null,
+          "role": "reported",
+          "organization": "",
+          "rank": 1
+        }],
+        "organization": null
+      },
+      "type_of_material": "News",
+      "_id": "58c1e2a795d0e024902fe8dd",
+      "word_count": 509,
+      "score": 0.0
+    }, {
+      "web_url": "https://www.nytimes.com/2017/03/09/fashion/documentary-fashion-azzedine-alaia.html",
+      "snippet": "A tempestuous designer who does not follow the corporate calendar or Instagram’s whims reluctantly sat for an unusual, untitled film.",
+      "lead_paragraph": "A tempestuous designer who does not follow the corporate calendar or Instagram’s whims reluctantly sat for an unusual, untitled film.",
+      "print_page": "2",
+      "blog": {},
+      "source": "The New York Times",
+      "multimedia": [{
+        "rank": 0,
+        "subtype": "thumbnail",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/12/fashion/12AZZEDINE-web/12AZZEDINE-web-thumbStandard.jpg",
+        "height": 75,
+        "width": 75,
+        "legacy": {
+          "thumbnailheight": 75,
+          "thumbnail": "images/2017/03/12/fashion/12AZZEDINE-web/12AZZEDINE-web-thumbStandard.jpg",
+          "thumbnailwidth": 75
+        },
+        "subType": "thumbnail",
+        "crop_name": null
+      }, {
+        "rank": 0,
+        "subtype": "xlarge",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/12/fashion/12AZZEDINE-web/12AZZEDINE-web-articleLarge.jpg",
+        "height": 338,
+        "width": 600,
+        "legacy": {
+          "xlargewidth": 600,
+          "xlarge": "images/2017/03/12/fashion/12AZZEDINE-web/12AZZEDINE-web-articleLarge.jpg",
+          "xlargeheight": 338
+        },
+        "subType": "xlarge",
+        "crop_name": null
+      }, {
+        "rank": 0,
+        "subtype": "wide",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/12/fashion/12AZZEDINE-web/12AZZEDINE-web-thumbWide.jpg",
+        "height": 126,
+        "width": 190,
+        "legacy": {
+          "wide": "images/2017/03/12/fashion/12AZZEDINE-web/12AZZEDINE-web-thumbWide.jpg",
+          "widewidth": 190,
+          "wideheight": 126
+        },
+        "subType": "wide",
+        "crop_name": null
+      }],
+      "headline": {
+        "main": "New Documentary Captures the Elusive Azzedine Alaïa",
+        "kicker": "Fashion on Film",
+        "content_kicker": "Fashion on Film",
+        "print_headline": "Capturing the Elusive Azzedine Alaïa",
+        "name": null,
+        "seo": null,
+        "sub": null
+      },
+      "keywords": [{
+        "name": "subject",
+        "value": "Documentary Films and Programs",
+        "rank": 1,
+        "major": "N"
+      }, {
+        "name": "subject",
+        "value": "Fashion and Apparel",
+        "rank": 2,
+        "major": "N"
+      }, {
+        "name": "persons",
+        "value": "Alaia, Azzedine",
+        "rank": 3,
+        "major": "N"
+      }, {
+        "name": "persons",
+        "value": "McKenna, Joe (Stylist)",
+        "rank": 4,
+        "major": "N"
+      }],
+      "pub_date": "2017-03-09T20:27:49+0000",
+      "document_type": "article",
+      "news_desk": "Styles",
+      "section_name": "Fashion & Style",
+      "byline": {
+        "original": "By GUY TREBAY",
+        "person": [{
+          "firstname": "Guy",
+          "middlename": null,
+          "lastname": "TREBAY",
+          "qualifier": null,
+          "title": null,
+          "role": "reported",
+          "organization": "",
+          "rank": 1
+        }],
+        "organization": null
+      },
+      "type_of_material": "News",
+      "_id": "58c1bacd95d0e024902fe855",
+      "word_count": 575,
+      "score": 0.0
+    }, {
+      "web_url": "https://www.nytimes.com/2017/03/03/books/paula-fox-dead.html",
+      "snippet": "Ms. Fox wrote for all ages, offering closely observed portraits of loss and abandonment. It was terrain she knew all too well.",
+      "lead_paragraph": "Ms. Fox wrote for all ages, offering closely observed portraits of loss and abandonment. It was terrain she knew all too well.",
+      "print_page": "15",
+      "blog": {},
+      "source": "The New York Times",
+      "multimedia": [{
+        "rank": 0,
+        "subtype": "thumbnail",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/04/arts/04fox-obit-4/04fox-obit-4-thumbStandard.jpg",
+        "height": 75,
+        "width": 75,
+        "legacy": {
+          "thumbnailheight": 75,
+          "thumbnail": "images/2017/03/04/arts/04fox-obit-4/04fox-obit-4-thumbStandard.jpg",
+          "thumbnailwidth": 75
+        },
+        "subType": "thumbnail",
+        "crop_name": null
+      }, {
+        "rank": 0,
+        "subtype": "xlarge",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/04/arts/04fox-obit-4/04fox-obit-4-articleLarge.jpg",
+        "height": 400,
+        "width": 600,
+        "legacy": {
+          "xlargewidth": 600,
+          "xlarge": "images/2017/03/04/arts/04fox-obit-4/04fox-obit-4-articleLarge.jpg",
+          "xlargeheight": 400
+        },
+        "subType": "xlarge",
+        "crop_name": null
+      }, {
+        "rank": 0,
+        "subtype": "wide",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/04/arts/04fox-obit-4/04fox-obit-4-thumbWide.jpg",
+        "height": 126,
+        "width": 190,
+        "legacy": {
+          "wide": "images/2017/03/04/arts/04fox-obit-4/04fox-obit-4-thumbWide.jpg",
+          "widewidth": 190,
+          "wideheight": 126
+        },
+        "subType": "wide",
+        "crop_name": null
+      }],
+      "headline": {
+        "main": "Paula Fox, Novelist Who Chronicled Dislocation, Dies at 93",
+        "kicker": null,
+        "content_kicker": null,
+        "print_headline": "Paula Fox, a Novelist Who Chronicled Loss and Dislocation, Dies at 93",
+        "name": null,
+        "seo": null,
+        "sub": null
+      },
+      "keywords": [{
+        "name": "subject",
+        "value": "Deaths (Obituaries)",
+        "rank": 1,
+        "major": "N"
+      }],
+      "pub_date": "2017-03-03T20:49:41+0000",
+      "document_type": "article",
+      "news_desk": "Culture",
+      "section_name": "Books",
+      "byline": {
+        "original": "By MARGALIT FOX",
+        "person": [{
+          "firstname": "Margalit",
+          "middlename": null,
+          "lastname": "FOX",
+          "qualifier": null,
+          "title": null,
+          "role": "reported",
+          "organization": "",
+          "rank": 1
+        }],
+        "organization": null
+      },
+      "type_of_material": "Obituary (Obit)",
+      "_id": "58b9d6ed95d0e024902fd70a",
+      "word_count": 1365,
+      "score": 0.0
+    }, {
+      "web_url": "https://www.nytimes.com/2017/03/10/books/review/harmless-like-you-rowan-hisayo-buchanan.html",
+      "snippet": "In Rowan Hisayo Buchanan’s novel, “Harmless Like You,” Greenwich Village shapes a Japanese woman’s life in art.",
+      "lead_paragraph": "In Rowan Hisayo Buchanan’s novel, “Harmless Like You,” Greenwich Village shapes a Japanese woman’s life in art.",
+      "print_page": "18",
+      "blog": {},
+      "source": "The New York Times",
+      "multimedia": [{
+        "rank": 0,
+        "subtype": "thumbnail",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/12/books/review/12SMITH/12SMITH-thumbStandard.jpg",
+        "height": 75,
+        "width": 75,
+        "legacy": {
+          "thumbnailheight": 75,
+          "thumbnail": "images/2017/03/12/books/review/12SMITH/12SMITH-thumbStandard.jpg",
+          "thumbnailwidth": 75
+        },
+        "subType": "thumbnail",
+        "crop_name": null
+      }, {
+        "rank": 0,
+        "subtype": "xlarge",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/12/books/review/12SMITH/12SMITH-articleLarge.jpg",
+        "height": 995,
+        "width": 600,
+        "legacy": {
+          "xlargewidth": 600,
+          "xlarge": "images/2017/03/12/books/review/12SMITH/12SMITH-articleLarge.jpg",
+          "xlargeheight": 995
+        },
+        "subType": "xlarge",
+        "crop_name": null
+      }, {
+        "rank": 0,
+        "subtype": "wide",
+        "caption": null,
+        "credit": null,
+        "type": "image",
+        "url": "images/2017/03/12/books/review/12SMITH/12SMITH-thumbWide.jpg",
+        "height": 126,
+        "width": 190,
+        "legacy": {
+          "wide": "images/2017/03/12/books/review/12SMITH/12SMITH-thumbWide.jpg",
+          "widewidth": 190,
+          "wideheight": 126
+        },
+        "subType": "wide",
+        "crop_name": null
+      }],
+      "headline": {
+        "main": "A Japanese Woman’s Life in Art, Made in the Village",
+        "kicker": "Fiction",
+        "content_kicker": "Fiction",
+        "print_headline": "Bohemian Dreams",
+        "name": null,
+        "seo": null,
+        "sub": null
+      },
+      "keywords": [{
+        "name": "subject",
+        "value": "Books and Literature",
+        "rank": 1,
+        "major": "N"
+      }, {
+        "name": "creative_works",
+        "value": "Harmless Like You (Book)",
+        "rank": 2,
+        "major": "N"
+      }, {
+        "name": "persons",
+        "value": "Buchanan, Rowan Hisayo",
+        "rank": 3,
+        "major": "N"
+      }],
+      "pub_date": "2017-03-10T15:00:13+0000",
+      "document_type": "article",
+      "news_desk": "BookReview",
+      "section_name": "Books",
+      "subsectoinName": "Book Review",
+      "byline": {
+        "original": "By NAMARA SMITH",
+        "person": [{
+          "firstname": "Namara",
+          "middlename": null,
+          "lastname": "SMITH",
+          "qualifier": null,
+          "title": null,
+          "role": "reported",
+          "organization": "",
+          "rank": 1
+        }],
+        "organization": null
+      },
+      "type_of_material": "Review",
+      "_id": "58c2bf8195d0e024902feaee",
+      "word_count": 627,
+      "score": 0.0
+    }],
+    "meta": {
+      "hits": 34,
+      "offset": 0,
+      "time": 13
+    }
+  }
+}

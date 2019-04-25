@@ -1,63 +1,186 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <title>NY Times API example</title>
+    <link href="nytimes.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>NY Times video search</h1>
 
-    <head>
-        <meta charset="utf-8">
-        <title>DGUI Lesson 5</title>
-        <meta name="description" content="html5 Forms">
-        <meta name="author" content="Hanna Kummel">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        <link rel="stylesheet" href="style/style.css">
-    </head>
+    <div class="wrapper">
+<!-- Source: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Third_party_APIs#A_RESTful_API_%E2%80%94_NYTimes -->
+      <div class="controls">
+        <form>
+          <p>
+            <label for="search">Enter a SINGLE search term (required): </label>
+            <input type="text" id="search" class="search" required>
+          </p>
+          <p>
+            <label for="start-date">Enter a start date (format YYYYMMDD): </label>
+            <input type="date" id="start-date" class="start-date" pattern="[0-9]{8}">
+          </p>
+          <p>
+            <label for="end-date">Enter an end date (format YYYYMMDD): </label>
+            <input type="date" id="end-date" class="end-date" pattern="[0-9]{8}">
+          </p>
+          <p>
+            <button class="submit">Submit search</button>
+          </p>
+        </form>
+      </div>
 
-    <body>
-        <div class="container">
-            <h1>HTML Formular</h1>
-            <hr>
-            <form>
+      <div class="results">
+        <nav>
+          <button class="prev">Previous 10</button>
+          <button class="next">Next 10</button>
+        </nav>
 
-                <div class="form-row">
-                    <div class="col-md-4 mb-3">
-                        <label for="validationDefault03">Ich möchte </label>
-                        <input type="text" class="form-control" id="validationDefault03" placeholder="Surfen, Schwimmen, Lesen, ..." onfocus="this.value=' '" required>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                        <label for="validationDefaultUsername">Wann</label>
-                        <div class="input-group">
-                            <input type="date" class="form-control" id="validationDefaultUsername" placeholder="dd/mm/yyyy"  onfocus="this.value=' '" aria-describedby="inputGroupPrepend2" required pattern="(0[1-9]|1[0-9]|2[0-9]|3[01]).(0[1-9]|1[012]).[0-9]{4}">
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                        <label for="validationDefault03">Wo </label>
-                        <input type="text" class="form-control" id="validationDefault03" placeholder="hier" required>
-                    </div>
-                    <div class="col-md-2 mb-3">
-                        <label for="customRange3">Im Umkreis von </label>
-                        <input type="range" class="custom-range" min="10" max="150" step="5" id="customRange3">
-                    </div>
-                </div>
-                <!-- <div class="form-group">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                        <label class="form-check-label" for="invalidCheck2">
-                            Agree to terms and conditions
-                        </label>
-                    </div>
-                </div> -->
-                <div class="sendbutton text-center">
-                    <button class="btn btn-primary my-primary col-6 " type="submit">LOS</button>
+        <section>
+        </section>
+      </div>
 
-                </div>
-            </form>
-        </div>
-        <script type="text/javascript">
+    </div>
+
+    <script>
+
+      // Defining a baseURL and key to as part of the request URL
+
+      var baseURL = 'https://api.nytimes.com/svc/search/v2/articlesearch.json';
+      var key = 'yrTXaFxdCrK7ipK539ZG5m8qvKmInDU5';
+      var url;
+
+      // Grab references to all the DOM elements you'll need to manipulate
+
+      var searchTerm = document.querySelector('.search');
+      var startDate = document.querySelector('.start-date');
+      var endDate = document.querySelector('.end-date');
+
+      var searchForm = document.querySelector('form');
+      var submitBtn = document.querySelector('.submit');
+
+      var nextBtn = document.querySelector('.next');
+      var previousBtn = document.querySelector('.prev');
+
+      var section = document.querySelector('section');
+      var nav = document.querySelector('nav');
+
+      // Hide the "Previous"/"Next" navigation to begin with, as we don't need it immediately
+      nav.style.display = 'none';
+
+      // define the initial page number and status of the navigation being displayed
+      var pageNumber = 0;
+      var displayNav = false;
+
+      // Event listeners to control the functionality
+      // The parameter (e) is automatically passed from javascript to your function when you add an event listener.
+      // It represents the element that was affected, an example would be the button element that was clicked.
+
+      searchForm.addEventListener('submit', submitSearch);
+      nextBtn.addEventListener('click', nextPage);
+      previousBtn.addEventListener('click', previousPage);
+      function nextPage(e) {
+        pageNumber++;
+        fetchResults(e);
+      };
+      function previousPage(e) {
+        if(pageNumber > 0) {
+          pageNumber--;
+        } else {
+          return;
+        }
+        fetchResults(e);
+      };
+
+      function submitSearch(e) {
+        pageNumber = 0;
+        fetchResults(e);
+      }
+
+      function fetchResults(e) {
+        // Use preventDefault() to stop the form submitting
+        e.preventDefault();
+
+        // Assemble the full URL
+        url = baseURL + '?api-key=' + key + '&page=' + pageNumber + '&q=' + searchTerm.value + '&fq=document_type:("article")';
+
+        if(startDate.value !== '') {
+          url += '&begin_date=' + startDate.value;
+        };
+
+        if(endDate.value !== '') {
+          url += '&end_date=' + endDate.value;
+        };
+
+        // Use fetch() to make the request to the API
+        fetch(url).then(function(result) {
+          return result.json();
+        }).then(function(json) {
+          displayResults(json);
+        });
+      }
+      function displayResults(json) {
+        while (section.firstChild) {
+            section.removeChild(section.firstChild);
+        }
+
+        var articles = json.response.docs;
+
+        if(articles.length === 10) {
+          nav.style.display = 'block';
+        } else {
+          nav.style.display = 'none';
+        }
+
+        if(articles.length === 0) {
+          var para = document.createElement('p');
+          para.textContent = 'No results returned.'
+          section.appendChild(para);
+
+        } else {
+
+          for(var i = 0; i < articles.length; i++) {
+            var article = document.createElement('article');
+            var heading = document.createElement('h2');
+            var link = document.createElement('a');
+            var img = document.createElement('img');
+            var para1 = document.createElement('p');
+            var para2 = document.createElement('p');
+            var clearfix = document.createElement('div');
+
+            var current = articles[i];
+            console.log('current ' + current);
+
+            link.href = current.web_url;
+            link.textContent = current.headline.main;
+            para1.textContent = current.snippet;
+            para2.textContent = 'Keywords: ';
+            for(var j = 0; j < current.keywords.length; j++) {
+              var span = document.createElement('span');
+              span.textContent += current.keywords[j].value + ' ';
+              para2.appendChild(span);
+            }
+
+            if(current.multimedia.length > 0) {
+              img.src = 'http://www.nytimes.com/' + current.multimedia[0].url;
+              img.alt = current.headline.main;
+            }
+
+            clearfix.setAttribute('class','clearfix');
+
+            article.appendChild(heading);
+            heading.appendChild(link);
+            article.appendChild(img);
+            article.appendChild(para1);
+            article.appendChild(para2);
+            article.appendChild(clearfix);
+            section.appendChild(article);
+          }
+        }
+      }
+
+    </script>
 
 
-        </script>
-    </body>
-
+  </body>
 </html>
